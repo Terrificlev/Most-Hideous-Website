@@ -1,7 +1,40 @@
 body {
-	
-	background: rgb(234,255,0);
-	background: radial-gradient(circle, rgba(234,255,0,1) 2%, rgba(234,255,0,1) 22%, rgba(0,212,255,1) 51%, rgba(233,0,		255,1) 76%, rgba(177,0,255,1) 100%); 
-	width:3000px;
-	height:2000px; 
+
+  background: rgb(234,255,0);
+  background: radial-gradient(circle, rgba(234,255,0,1) 2%, rgba(234,255,0,1) 22%, rgba(0,212,255,1) 51%, rgba(233,0,		255,1) 76%, rgba(177,0,255,1) 100%);
+  width:3000px;
+  height:2000px;
+}
+.red
+{
+  color:red;
+  background-color: blueviolet;
+}
+.blue
+{
+  color:#13068c;
+  background-color: black;
+}
+.green
+{
+  color:#00ff3c;
+  background-color: #fffb00;
+}
+.pink
+{
+  color: #c000ff;
+  background-color: #00ffd1;
+}
+.purple
+{
+  color: #4203ff;
+  background-color: #00ff3c;
+}
+#title
+{
+  text-align: center;
+  background: linear-gradient(45deg,#0000 calc(25%/3), #efff47 0 calc(50%/3), #0000 0 calc(250%/3), #efff47 0 calc(275%/3), #0000 0),linear-gradient( 45deg,#efff47 calc(25%/3), #0000 0 calc(50%/3), #efff47 0 25%, #0000 0 75%, #efff47 0 calc(250%/3), #0000 0 calc(275%/3), #efff47 0), linear-gradient(-45deg,#0000 calc(25%/3), #efff47 0 calc(50%/3), #0000 0),linear-gradient(-45deg,#efff47 calc(25%/3), #0000 0 calc(50%/3), #efff47 0 25%, #0000 0 75%, #efff47 0 calc(250%/3), #0000 0 calc(275%/3), #efff47 0) #0003ff;
+  background-size: 64px 64px;
+  background-position: 0 0, 32px  32px;
+
 }
