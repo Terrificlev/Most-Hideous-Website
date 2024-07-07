@@ -30,11 +30,48 @@ body {
   color: #4203ff;
   background-color: #00ff3c;
 }
-#title
-{
+#title {
   text-align: center;
-  background: linear-gradient(45deg,#0000 calc(25%/3), #efff47 0 calc(50%/3), #0000 0 calc(250%/3), #efff47 0 calc(275%/3), #0000 0),linear-gradient( 45deg,#efff47 calc(25%/3), #0000 0 calc(50%/3), #efff47 0 25%, #0000 0 75%, #efff47 0 calc(250%/3), #0000 0 calc(275%/3), #efff47 0), linear-gradient(-45deg,#0000 calc(25%/3), #efff47 0 calc(50%/3), #0000 0),linear-gradient(-45deg,#efff47 calc(25%/3), #0000 0 calc(50%/3), #efff47 0 25%, #0000 0 75%, #efff47 0 calc(250%/3), #0000 0 calc(275%/3), #efff47 0) #0003ff;
+  background: linear-gradient(45deg, #0000 calc(25% / 3), #efff47 0 calc(50% / 3), #0000 0 calc(250% / 3), #efff47 0 calc(275% / 3), #0000 0), linear-gradient(45deg, #efff47 calc(25% / 3), #0000 0 calc(50% / 3), #efff47 0 25%, #0000 0 75%, #efff47 0 calc(250% / 3), #0000 0 calc(275% / 3), #efff47 0), linear-gradient(-45deg, #0000 calc(25% / 3), #efff47 0 calc(50% / 3), #0000 0), linear-gradient(-45deg, #efff47 calc(25% / 3), #0000 0 calc(50% / 3), #efff47 0 25%, #0000 0 75%, #efff47 0 calc(250% / 3), #0000 0 calc(275% / 3), #efff47 0) #0003ff;
   background-size: 64px 64px;
-  background-position: 0 0, 32px  32px;
+  background-position: 0 0, 32px 32px;
+}
+#paragraph_one {
+  width: 450px;
+  height: auto;
 
+  background-image: radial-gradient(#0a00ff 5.5px, transparent 5.5px), radial-gradient(#0a00ff 5.5px, transparent 5.5px);
+  background-size: 29px 29px;
+  background-position: 0 0, 14.5px 14.5px;
+  background-color: #000000;
+
+  border-style: dashed groove inset dotted;
+  border-width: 20px;
+  border-color: #ff00b3;
+  border-radius: 52px 25px 0px 19px;
+
+  color: rgb(0, 182, 157);
+  font-family: "Bodoni Moda SC", serif;
+  text-shadow: #00ff3c 2px 2px 2px;
+}
+#paragraph_two
+{
+  position: relative;
+
+  width: 450px;
+  height: auto;
+
+  background-image: repeating-linear-gradient(0deg, #00ffee, #00ffee 10px, transparent 10px, transparent);
+  background-size: 22px 22px;
+  background-color: #ff47e6;
+
+  border: 20px dotted #ff0000;
+  border-radius:  67px 56px 73px 5px;
+
+  font-family: "Ga Maamli", sans-serif;
+  color: #FFF300;
+  text-shadow: #00ff29 5px 5px 5px;
+
+  left: 445px;
+  bottom: 350px;
 }
