@@ -36,6 +36,10 @@ body {
   background-size: 64px 64px;
   background-position: 0 0, 32px 32px;
 }
+#explanation
+{
+  text-align: center;
+}
 #paragraph_one {
   width: 450px;
   height: auto;
@@ -65,8 +69,12 @@ body {
   background-size: 22px 22px;
   background-color: #ff47e6;
 
-  border: 20px dotted #ff0000;
   border-radius:  67px 56px 73px 5px;
+
+  border: 20px dotted #ff02e5;
+  border-right-color: #fff400;
+  border-bottom-color: #763423;
+  border-left-color: #221c76;
 
   font-family: "Ga Maamli", sans-serif;
   color: #FFF300;
@@ -74,4 +82,48 @@ body {
 
   left: 445px;
   bottom: 350px;
+}
+#paragraph_three
+{
+  position: absolute;
+
+  width: 350px;
+  height: auto;
+
+  background-image: linear-gradient(#fefefe 5px, transparent 5px), linear-gradient(to right, #fefefe 5px, transparent 5px);
+  background-size: 32px 32px;
+  background-color: #0400ff;
+
+  border-width: 27px;
+  border-color: #ff00b3;
+  border-style: dot-dot-dash groove dotted inset;
+  border-radius: 74px 48px 21px 53px;
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+  font-family: "Playwrite HR", cursive;
+  color: #ff10ca;
+  text-shadow: #ff0000 3px 3px 3px;
+  text-align: left;
+
+  bottom: 300px;
+  left: 800px;
+}
+
+#paragraph_four
+{
+  position: relative;
+
+  width: 100px;
+  height: auto;
+
+  background-image: repeating-conic-gradient(from 30deg, #f4f4f4 0% 60deg, #ff00ff 0% 120deg);
+  background-size: 17px 29px;
+  background-color: #ff00ff;
+
+  border-width: 15px;
+  border-color: #00ffd1;
+  border-style: solid;
+  border-radius: 20px 34px 69px 13px;
 }
