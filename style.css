@@ -40,6 +40,7 @@ body {
 {
   text-align: center;
 }
+
 #paragraph_one {
   width: 450px;
   height: auto;
@@ -94,7 +95,7 @@ body {
   background-size: 32px 32px;
   background-color: #0400ff;
 
-  border-width: 27px;
+  border-width: 50px;
   border-color: #ff00b3;
   border-style: dot-dot-dash groove dotted inset;
   border-radius: 74px 48px 21px 53px;
@@ -122,8 +123,66 @@ body {
   background-size: 17px 29px;
   background-color: #ff00ff;
 
+
   border-width: 15px;
   border-color: #00ffd1;
   border-style: solid;
   border-radius: 20px 34px 69px 13px;
+
+
+  font-family: "Playwrite CZ", cursive;
+  color: #2800ff;
+  text-shadow: #ff6e00 3px 3px 3px;
+  text-align: center;
+
+  bottom: 628px;
+  left: 1150px;
+
+}
+#paragraph_five
+{
+  position: relative;
+
+  width: 1000px;
+  height: 600px;
+
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #ffb700 10px, #ffb700 20px);
+  background-color: #00fff5;
+
+  border-width: 60px;
+  border-color: #221c76 #ff00ff #FFF300 #763423;
+  border-style: solid dotted ridge dot-dot-dash;
+  border-radius: 200px 300px 500px 400px;
+
+
+
+  font-family: "Archivo Black", sans-serif;
+  color: #ffffff;
+  text-shadow: #000000 2px 2px 2px;
+  text-align: right;
+
+  bottom:6399px;
+}
+#paragraph_six
+{
+  position: relative;
+
+  width: 400px;
+  height: 300px;
+
+  background:
+    radial-gradient(#ff0000 49%,#0000 50%) calc(22px/-2) calc(22px/2),
+    repeating-conic-gradient(from 45deg,#15ff00 0 25%,#0000 0 50%)
+    calc(22px/2) calc(22px/2),
+    radial-gradient(#ff0000 49%,#0000 50%),radial-gradient(#ff0000 49%,#0000 50%) 22px 22px #15ff00;
+  background-size: calc(2*22px) calc(2*22px);
+
+  border-width: 20px;
+  border-color: #ff00b3;
+  border-style: dotted;
+  border-radius: 75px 150px 50px 90px;
+
+  bottom: 7000px;
+  left: 1700px;
+
 }
