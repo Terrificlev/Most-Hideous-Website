@@ -1,0 +1,27 @@
+*body
+{
+  width:100%;
+  height: auto;
+}
+.headline
+{
+  position: relative;
+
+  width:300px;
+  height: auto;
+
+  font-family: "Poppins", sans-serif;
+
+  top:0px;
+  left:auto;
+}
+#headline
+{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+#Section_One
+{
+  font-size: 20px;
+}
