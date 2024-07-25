@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <title>Start</title>
-  <link rel="stylesheet" href="mainStyle.css">
+  <link rel="stylesheet" href="css/mainStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -14,14 +14,95 @@
 <div id="headline" style="text-align: center;"><h1>What makes a Bad Website?</h1></div>
 <div id="Section_One">
   <div class="headline"> 1. Awful color Schemes</div>
-  Some color <h3>Shouldn't</h3> be used with one another. One example may be: Brown and Yellow.
+  Some color <h3>Shouldn't</h3> be used with one another. One example may be:
+  <br>
+
+  <div class="color">
+
+  Brown and Orange.
   <img src="images/BrownAndOrange.JPG"/>
 
-  Another Might be: Navy and Black!!!
+  </div>
+  <br>
 
-  
+  Another Might be:
+
+  <div class="color">
+    Navy and Black.
+  <img src="images/BlueAndBlack.JPG" >
+  </div>
+  <br>
+
+    <div class="color">
+
+    neon green and neon pink also.
+    <img src="images/PinkAndGreen.JPG"/>
+
+    </div>
+
+  <br>
+
+    <div class="color">
+    not to forget purple and red.
+    <img src="images/RedAndPurple.JPG">
+    </div>
+
+  <br>
+
+  and the rest are:
+
+  <br>
+  <div class="color">
+  purple and yellow
+  <img src="images/PurpleAndYellow.JPG">
+  </div>
+  <br>
+  <div class="color">
+  green and yellow
+  <img src="images/GreenAndYellow.JPG">
+  </div>
+  <br>
+  <div class="color">
+  red and green
+  <img src="images/RedAndGreen.JPG">
+  </div>
+
+    any dark color with a light color also
+
+    and 2 lights could also be very bad.
+  </div>
+
+  <!--Then Comes overlapping-->
+<div id="Section_Two">
+
+  <div style="text-align: center;"><div class="headline"> Overlapping </div></div>
+  <div id = "explanationPara" style="text-align: center;">
+    Overlapping is very bad because it shows that you want to cramp a lot of information into 1 small place which is bad because
+    it will draw a lot of attention which if there is another element wanting its attention then it will be a bad experience for the user to try to understand how the website works.
+  </div>
+  <div id="text1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sodales ex. Vivamus vel neque maximus, convallis libero id, feugiat lectus. Integer mauris tellus, viverra non faucibus vulputate, vulputate vel augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales velit et vehicula blandit. Vestibulum euismod ac eros vitae dapibus. Integer egestas tristique tellus non pulvinar. Fusce malesuada, turpis tempor interdum vestibulum, arcu nibh fermentum leo, at lobortis justo massa sed urna. Donec malesuada nulla placerat arcu rutrum, et ultrices purus blandit. Curabitur euismod dolor eget odio maximus suscipit. Suspendisse fringilla volutpat lacus at commodo. Suspendisse laoreet lorem at neque fermentum ornare. Proin consequat, nunc vel pretium malesuada, leo risus vestibulum erat, sed rutrum elit leo sed est. Integer enim nisl, commodo ut lectus eu, fermentum mollis lorem. Integer mattis sodales sem ac mattis. Sed ornare suscipit dolor id cursus.
+    Phasellus at turpis nec metus ornare accumsan eu at mauris. Pellentesque eget purus molestie, commodo ipsum eget, cursus leo. Aliquam egestas turpis a dui scelerisque varius. Sed euismod, leo eu hendrerit euismod, turpis risus scelerisque risus, ac lobortis sapien ligula at urna. Nam ut interdum felis. Cras quis semper felis. Maecenas lectus tellus, lacinia in auctor at, accumsan posuere neque. In elit magna, mollis eleifend augue et, sagittis egestas purus. Donec sodales condimentum lacus sed pellentesque. Vestibulum eu lorem nec lorem feugiat consectetur. Cras fringilla porttitor justo.
+  </div>
+  <div id="text2">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sodales ex. Vivamus vel neque maximus, convallis libero id, feugiat lectus. Integer mauris tellus, viverra non faucibus vulputate, vulputate vel augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales velit et vehicula blandit. Vestibulum euismod ac eros vitae dapibus. Integer egestas tristique tellus non pulvinar. Fusce malesuada, turpis tempor interdum vestibulum, arcu nibh fermentum leo, at lobortis justo massa sed urna. Donec malesuada nulla placerat arcu rutrum, et ultrices purus blandit. Curabitur euismod dolor eget odio maximus suscipit. Suspendisse fringilla volutpat lacus at commodo. Suspendisse laoreet lorem at neque fermentum ornare. Proin consequat, nunc vel pretium malesuada, leo risus vestibulum erat, sed rutrum elit leo sed est. Integer enim nisl, commodo ut lectus eu, fermentum mollis lorem. Integer mattis sodales sem ac mattis. Sed ornare suscipit dolor id cursus.
+    Phasellus at turpis nec metus ornare accumsan eu at mauris. Pellentesque eget purus molestie, commodo ipsum eget, cursus leo. Aliquam egestas turpis a dui scelerisque varius. Sed euismod, leo eu hendrerit euismod, turpis risus scelerisque risus, ac lobortis sapien ligula at urna. Nam ut interdum felis. Cras quis semper felis. Maecenas lectus tellus, lacinia in auctor at, accumsan posuere neque. In elit magna, mollis eleifend augue et, sagittis egestas purus. Donec sodales condimentum lacus sed pellentesque. Vestibulum eu lorem nec lorem feugiat consectetur. Cras fringilla porttitor justo.
+  </div>
+
 
 </div>
+
+  <!--THen Comes background-->
+
+  <!--THen Comes borders-->
+
+  <!--THen Comes position of the text (not too cramped but not oo spacial)-->
+
+  <!--THen Comes that you should add randoms effects (snow, bumblebee cursor) / gifs  and jiggly buttons-->
+
+
+
+
 
 </body>
 </html>
